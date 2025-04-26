@@ -71,8 +71,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ### Clone this repository
 You can downloade or clone this repository, if you want download you can touch the button with text code and download zip
 ```bash
-git clone https://github.com/SltnBM/JKB-LEARNING-CENTER.git
-cd JKB-LEARNING-CENTER
+git clone https://github.com/SltnBM/backend-laravel-blog-app.git
+cd backend-laravel-blog-app
 ```
 
 ### Install All Dependencies
