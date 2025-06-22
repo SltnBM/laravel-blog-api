@@ -62,6 +62,36 @@ php artisan migrate
 ```bash
 php artisan serve
 ```
+## 🧪 API Testing with Postman
+1️⃣ Open Postman or your favorite API client.
+2️⃣ Use the base URL:
+```bash
+http://127.0.0.1:8000
+```
+
+## 📌 Example Endpoints
+```plaintext
+| Method | Endpoint          | Description             |
+| ------ | ----------------  | ----------------------  |
+| GET    | `/api/posts`      | Get all blog posts      |
+| GET    | `/api/posts/{id}` | Get a single post by ID |
+| POST   | `/api/posts`      | Create a new post       |
+| PUT    | `/api/posts/{id}` | Update an existing post |
+| DELETE | `/api/posts/{id}` | Delete a post           |
+```
+
+## 📁 Postman Collection
+You can import the provided Postman Collection for testing the API endpoints:
+- 📂 Collection:  
+  `/postman/simple-forum.postman_collection.json`
+
+- 🌐 Environment:  
+  `/postman/forum-api.postman_environment.json`
+
+### 📥 How to import:
+1. Open Postman → Import → Upload Files → Select both .json files.
+2. Use the Environment for easier variable handling.
+3. Run the requests from simple-forum collection.
 
 ## 🤝 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sultan%20Badra-blue?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/sultan-badra)
