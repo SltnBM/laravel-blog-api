@@ -69,17 +69,6 @@ php artisan serve
 http://127.0.0.1:8000
 ```
 
-## 📌 Example Endpoints
-```plaintext
-| Method | Endpoint          | Description             |
-| ------ | ----------------  | ----------------------  |
-| GET    | `/api/posts`      | Get all blog posts      |
-| GET    | `/api/posts/{id}` | Get a single post by ID |
-| POST   | `/api/posts`      | Create a new post       |
-| PUT    | `/api/posts/{id}` | Update an existing post |
-| DELETE | `/api/posts/{id}` | Delete a post           |
-```
-
 ## 📁 Postman Collection
 You can import the provided Postman Collection for testing the API endpoints:
 - 📂 Collection:  
