@@ -2,7 +2,6 @@
 A simple **RESTful API** backend built with **Laravel 12** for a blog application.  
 This project is intended for learning purposes, focusing on CRUD operations, database migrations, and Laravel best practices.
 
-
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -62,8 +61,11 @@ php artisan migrate
 ```bash
 php artisan serve
 ```
+
 ## 🧪 API Testing with Postman
+
 1️⃣ Open Postman or your favorite API client.
+
 2️⃣ Use the base URL:
 ```bash
 http://127.0.0.1:8000
