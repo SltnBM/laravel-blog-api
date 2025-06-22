@@ -13,40 +13,39 @@ This project is intended for learning purposes, focusing on CRUD operations, dat
 </p>
 
 ## ✨ Features
-- RESTful API CRUD for posts  
-- Database migrations  
-- .env environment file configuration  
-- Built with **Laravel 12**  
-- Ready for further development (authentication, validation, etc.)
+- 📝 RESTful API CRUD for posts  
+- 🗄️ Database migrations  
+- ⚙️ .env environment file configuration  
+- 🛠️ Built with **Laravel 12**  
 
-## 🛠️ Technologies Used
-- PHP 8+
-- Laravel 12
-- MySQL (or compatible)
-- Composer
+## 🖥️ Technologies Used
+- 🐘 PHP 8+
+- 🌐 Laravel 12
+- 🗃️ MySQL (or compatible)
+- 📦 Composer
 
 ## 🚀 How to Use
-1. Clone this repository
+1. 📥 Clone this repository
 ```bash
 git clone https://github.com/SltnBM/backend-laravel-blog-app.git
 ```
-2. Navigate to the project directory
+2. 📂 Navigate to the project directory
 ```bash
 cd backend-laravel-blog-app
 ```
-3. Install all dependencies
+3. 📦 Install all dependencies
 ```bash
 composer install
 ```
-4. Copy the example environment file
+4. 📝 Copy the example environment file
 ```bash
 cp .env.example .env
 ```
-5. Generate the application key
+5. 🔑 Generate the application key
 ```bash
 php artisan key:generate
 ```
-6. Configure your .env with your database credentials
+6. ⚙️ Configure your .env with your database credentials
 ```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -55,11 +54,11 @@ DB_DATABASE=your_database_name
 DB_USERNAME=your_database_username
 DB_PASSWORD=your_database_password
 ```
-7. Run database migrations
+7. 🗄️ Run database migrations
 ```bash
 php artisan migrate
 ```
-8. Run the development server
+8. ▶️ Run the development server
 ```bash
 php artisan serve
 ```
