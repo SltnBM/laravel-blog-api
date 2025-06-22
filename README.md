@@ -27,11 +27,11 @@ This project is intended for learning purposes, focusing on CRUD operations, dat
 ## 🚀 How to Use
 1. 📥 Clone this repository
 ```bash
-git clone https://github.com/SltnBM/backend-laravel-blog-app.git
+git clone https://github.com/SltnBM/laravel-blog-api.git
 ```
 2. 📂 Navigate to the project directory
 ```bash
-cd backend-laravel-blog-app
+cd laravel-blog-api
 ```
 3. 📦 Install all dependencies
 ```bash
