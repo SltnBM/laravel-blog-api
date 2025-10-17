@@ -11,17 +11,23 @@ This project is intended for learning purposes, focusing on CRUD operations, dat
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+---
+
 ## ✨ Features
 - 📝 RESTful API CRUD for posts  
 - 🗄️ Database migrations  
 - ⚙️ .env environment file configuration  
 - 🛠️ Built with **Laravel 12**  
 
+---
+
 ## 🖥️ Technologies Used
 - 🐘 PHP 8+
 - 🌐 Laravel 12
 - 🗃️ MySQL (or compatible)
 - 📦 Composer
+
+---
 
 ## 🚀 How to Use
 1. 📥 Clone this repository
@@ -62,6 +68,8 @@ php artisan migrate
 php artisan serve
 ```
 
+---
+
 ## 🧪 API Testing with Postman
 
 1️⃣ Open Postman or your favorite API client.
@@ -70,6 +78,8 @@ php artisan serve
 ```bash
 http://127.0.0.1:8000
 ```
+
+---
 
 ## 📁 Postman Collection
 You can import the provided Postman Collection for testing the API endpoints:
@@ -84,8 +94,12 @@ You can import the provided Postman Collection for testing the API endpoints:
 2. Use the Environment for easier variable handling.
 3. Run the requests from simple-forum collection.
 
+---
+
 ## 🤝 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sultan%20Badra-blue?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/sultan-badra)
+
+---
 
 ## 📄 License
 Feel free to use this project for personal or educational purposes.
