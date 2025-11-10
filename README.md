@@ -14,43 +14,43 @@ This project is intended for learning purposes, focusing on CRUD operations, dat
 ---
 
 ## ✨ Features
-- 📝 RESTful API CRUD for posts  
-- 🗄️ Database migrations  
-- ⚙️ .env environment file configuration  
-- 🛠️ Built with **Laravel 12**  
+- RESTful API CRUD for posts  
+- Database migrations  
+- .env environment file configuration  
+- Built with **Laravel 12**  
 
 ---
 
 ## 🖥️ Technologies Used
-- 🐘 PHP 8+
-- 🌐 Laravel 12
-- 🗃️ MySQL (or compatible)
-- 📦 Composer
+- PHP 8+
+- Laravel 12
+- MySQL (or compatible)
+- Composer
 
 ---
 
 ## 🚀 How to Use
-1. 📥 Clone this repository
+1. Clone this repository
 ```bash
 git clone https://github.com/SltnBM/laravel-blog-api.git
 ```
-2. 📂 Navigate to the project directory
+2. Navigate to the project directory
 ```bash
 cd laravel-blog-api
 ```
-3. 📦 Install all dependencies
+3. Install all dependencies
 ```bash
 composer install
 ```
-4. 📝 Copy the example environment file
+4. Copy the example environment file
 ```bash
 cp .env.example .env
 ```
-5. 🔑 Generate the application key
+5. Generate the application key
 ```bash
 php artisan key:generate
 ```
-6. ⚙️ Configure your .env with your database credentials
+6. Configure your .env with your database credentials
 ```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -59,11 +59,11 @@ DB_DATABASE=your_database_name
 DB_USERNAME=your_database_username
 DB_PASSWORD=your_database_password
 ```
-7. 🗄️ Run database migrations
+7. Run database migrations
 ```bash
 php artisan migrate
 ```
-8. ▶️ Run the development server
+8. Run the development server
 ```bash
 php artisan serve
 ```
@@ -71,10 +71,9 @@ php artisan serve
 ---
 
 ## 🧪 API Testing with Postman
+1️. Open Postman or your favorite API client.
 
-1️⃣ Open Postman or your favorite API client.
-
-2️⃣ Use the base URL:
+2️. Use the base URL:
 ```bash
 http://127.0.0.1:8000
 ```
@@ -83,10 +82,10 @@ http://127.0.0.1:8000
 
 ## 📁 Postman Collection
 You can import the provided Postman Collection for testing the API endpoints:
-- 📂 Collection:  
+- Collection:  
   `/postman/simple-forum.postman_collection.json`
 
-- 🌐 Environment:  
+- Environment:  
   `/postman/forum-api.postman_environment.json`
 
 ### 📥 How to import:
